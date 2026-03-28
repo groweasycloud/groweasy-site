@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GrowEasy | Run Your Business From One Dashboard</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Inter',sans-serif;
+background:#0b1220;
+color:white;
+line-height:1.6;
+overflow-x:hidden;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 0;
+}
+
+.logo{
+font-size:24px;
+font-weight:700;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+opacity:.8;
+}
+
+nav a:hover{
+opacity:1;
+}
+
+.hero{
+padding:140px 0;
+text-align:center;
+background:linear-gradient(180deg,#0b1220,#121a2f);
+}
+
+.hero h1{
+font-size:52px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+opacity:.85;
+max-width:700px;
+margin:auto;
+margin-bottom:40px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 28px;
+border-radius:8px;
+text-decoration:none;
+font-weight:600;
+margin:10px;
+}
+
+.btn-primary{
+background:#3b82f6;
+color:white;
+}
+
+.btn-secondary{
+background:#1e293b;
+color:white;
+border:1px solid #334155;
+}
+
+.hero img{
+width:100%;
+max-width:950px;
+margin-top:60px;
+border-radius:12px;
+box-shadow:0 30px 60px rgba(0,0,0,.5);
+}
+
+.section{
+padding:100px 0;
+}
+
+.section-title{
+text-align:center;
+font-size:36px;
+margin-bottom:15px;
+}
+
+.section-sub{
+text-align:center;
+max-width:650px;
+margin:auto;
+opacity:.8;
+margin-bottom:60px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+}
+
+.card{
+background:#1a2337;
+padding:30px;
+border-radius:12px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+.stats{
+display:flex;
+justify-content:space-around;
+flex-wrap:wrap;
+text-align:center;
+}
+
+.stat{
+margin:20px;
+}
+
+.stat h3{
+font-size:40px;
+color:#3b82f6;
+}
+
+.products{
+background:#060b16;
+}
+
+.products .card{
+text-align:center;
+}
+
+.demo{
+text-align:center;
+}
+
+.demo video{
+width:100%;
+max-width:900px;
+border-radius:12px;
+margin-top:40px;
+}
+
+.cta{
+text-align:center;
+padding:120px 0;
+background:#060b16;
+}
+
+footer{
+text-align:center;
+padding:40px;
+opacity:.6;
+font-size:14px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<div class="logo">GrowEasy</div>
+
+<nav>
+
+<a href="#features">Features</a> <a href="#demo">Demo</a> <a href="#products">Products</a> <a href="https://groweasy.up.railway.app/login">Login</a>
+
+</nav>
+
+</header>
+
+</div>
+
+<section class="hero">
+
+<div class="container">
+
+<h1>Stop Running Your Business on Excel</h1>
+
+<p>
+GrowEasy replaces spreadsheets, notebooks, and messy records with one simple dashboard for inventory, invoices, expenses, and profit tracking.
+</p>
+
+<a class="btn btn-primary" href="https://groweasy.up.railway.app/register">Start Free</a>
+
+<a class="btn btn-secondary" href="#demo">Watch Demo</a>
+
+<img src="assets/dashboard.png">
+
+</div>
+
+</section>
+
+<section id="features" class="section">
+
+<div class="container">
+
+<h2 class="section-title">Everything Your Business Needs</h2>
+
+<p class="section-sub">
+From invoices to inventory, GrowEasy keeps your entire business organized in one place.
+</p>
+
+<div class="grid">
+
+<div class="card">
+<h3>Smart Invoicing</h3>
+<p>Create professional invoices in seconds and download PDF instantly.</p>
+</div>
+
+<div class="card">
+<h3>Inventory Tracking</h3>
+<p>Know exactly what products are in stock and get low-stock alerts.</p>
+</div>
+
+<div class="card">
+<h3>Expense Tracking</h3>
+<p>Track business expenses and understand where your money goes.</p>
+</div>
+
+<div class="card">
+<h3>Purchase Orders</h3>
+<p>Manage suppliers and incoming stock effortlessly.</p>
+</div>
+
+<div class="card">
+<h3>Profit Dashboard</h3>
+<p>See revenue, expenses, and profit in real time.</p>
+</div>
+
+<div class="card">
+<h3>CSV Product Upload</h3>
+<p>Import hundreds of products instantly.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section stats">
+
+<div class="stat">
+<h3>10+</h3>
+<p>Business Tools</p>
+</div>
+
+<div class="stat">
+<h3>1000+</h3>
+<p>Products Managed</p>
+</div>
+
+<div class="stat">
+<h3>10h</h3>
+<p>Time Saved Weekly</p>
+</div>
+
+</section>
+
+<section id="demo" class="section demo">
+
+<div class="container">
+
+<h2 class="section-title">See GrowEasy In Action</h2>
+
+<p class="section-sub">
+Watch how a shop owner creates an invoice and tracks profit in seconds.
+</p>
+
+<video controls>
+
+<source src="assets/demo.mp4" type="video/mp4">
+
+</video>
+
+</div>
+
+</section>
+
+<section id="products" class="section products">
+
+<div class="container">
+
+<h2 class="section-title">GrowEasy Platform</h2>
+
+<p class="section-sub">
+We build tools that help businesses operate smarter and grow faster.
+</p>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>GrowEasy Invoice</h3>
+
+<p>Professional invoice generator with QR codes and PDF export.</p>
+
+</div>
+
+<div class="card">
+
+<h3>GrowEasy Inventory</h3>
+
+<p>Track products, suppliers, and stock levels effortlessly.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Custom Business Systems</h3>
+
+<p>Need automation or a custom dashboard? We build tailored systems.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<div class="container">
+
+<h2>Run Your Entire Business From One Dashboard</h2>
+
+<p style="margin-top:20px;margin-bottom:40px;opacity:.8;">
+Start using GrowEasy today and simplify your business operations.
+</p>
+
+<a class="btn btn-primary" href="https://groweasy.up.railway.app/register">
+
+Create Free Account
+
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 GrowEasy Cloud — All Rights Reserved</p>
+
+</footer>
+
+</body>
+
+</html>
